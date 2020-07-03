@@ -1,0 +1,45 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+
+.clearfix::after {
+ content: "";
+ display: table;
+ clear: both;
+ }
+
+ .container{
+   width: 80%;
+   margin: auto;
+ }
+
+header{
+ height: 100vh;
+ }
+
+.header-top{
+ height: 20%;
+ background-color: red;
+}
+
+.nav-top{
+ height: 50%;
+ background-color: #F4F9FD;
+}
+
+.nav-bottom{
+  height: 50%;
+  background-color: #FFF;
+}
+
+.banner{
+  height: 70%;
+  background-color: #FFF2EF;
+}
+
+.header-divider{
+  height: 10%;
+  background-color: #AFEBE4;
+}
