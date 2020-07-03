@@ -15,6 +15,11 @@
    margin: auto;
  }
 
+ .container-small{
+   width: 50%;
+   margin: auto;
+ }
+
 header{
  height: 100vh;
  }
@@ -42,4 +47,8 @@ header{
 .header-divider{
   height: 10%;
   background-color: #AFEBE4;
+}
+
+main{
+  background-color: #F4F9FD;
 }
