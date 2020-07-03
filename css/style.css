@@ -28,6 +28,7 @@
  .btn{
    border-radius: 5px;
    padding: 8px 10px;
+   text-decoration: none;
  }
 
  .btn-orange{
@@ -36,7 +37,7 @@
  }
 
  .btn-orange-large{
-   padding: 18px 22px;
+   padding: 18px 35px;
    display: inline-block;
  }
 
@@ -199,6 +200,31 @@ main{
   text-transform: capitalize;
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+.box{
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #cecece;
+}
+
+.box-info{
+  height: 350px;
+  padding: 80px 120px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.box-info .col-sx{
+  float: left;
+}
+.box-info .col-dx{
+  float: left;
+}
+
+.box-info .col-sx img{
+  height: 90px;
+  margin-bottom: 15px;
 }
 
 
