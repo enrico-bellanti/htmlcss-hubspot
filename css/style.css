@@ -26,14 +26,44 @@ header{
 
 .header-top{
  height: 20%;
- background-color: red;
 }
 
+/* barra navigazione superiore */
 .nav-top{
  height: 50%;
  background-color: #F4F9FD;
+ border-bottom: 1px solid #000;
 }
 
+.nav-top ul li{
+  display: inline-block;
+}
+
+.nav-top li a{
+ text-decoration: none;
+}
+
+
+.nav-top .nav-left{
+  float: left;
+  width: 50%;
+  background-color: blue;
+  color: #000;
+}
+
+
+
+.nav-left  li a{
+ color: #000;
+}
+
+.nav-top .nav-right{
+  float: left;
+  width: 50%;
+  background-color: green;
+}
+
+/* barra navigazione inferiore */
 .nav-bottom{
   height: 50%;
   background-color: #FFF;
