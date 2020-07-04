@@ -291,6 +291,10 @@ main{
 
 /* tre colonne */
 
+.col-info{
+  margin-bottom: 40px;
+}
+
 .col-info .box{
   float: left;
   width: 30%;
@@ -346,6 +350,73 @@ main{
 .col-info ul li:last-child{
   margin-bottom: 50px;
 }
+
+/* sezione verde gradiente */
+
+.home-comunity{
+  height: 550px;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: #fff;
+  text-align: center;
+}
+
+.home-comunity h2{
+  margin: auto;
+  padding: 30px 0;
+  width: 90%;
+  font-size: 30px;
+}
+
+.home-comunity p{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.box-gradient-container{
+  height: 320px;
+}
+
+.box-gradient{
+  float: left;
+  width: 25%;
+  height: 160px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.box-gradient:nth-child(4n+4){
+  border-right: none;
+}
+.box-gradient:nth-child(n+5){
+  border-bottom: none;
+}
+
+.box-gradient-margin{
+  margin-top: 12px;
+}
+
+
+
+.comunity-numbs{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.comunity-numbs span{
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
 
 
 
