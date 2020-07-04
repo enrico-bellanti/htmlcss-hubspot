@@ -178,6 +178,10 @@ header{
   margin-bottom: 20px;
 }
 
+.banner-text h8{
+  font-size: 12px;
+}
+
 .header-divider{
   height: 60px;
   background-color: #AFEBE4;
@@ -354,7 +358,7 @@ main{
 /* sezione verde gradiente */
 
 .home-comunity{
-  height: 550px;
+  height: 600px;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: #fff;
   text-align: center;
@@ -396,8 +400,6 @@ main{
   margin-top: 12px;
 }
 
-
-
 .comunity-numbs{
   font-size: 40px;
   font-weight: bold;
@@ -409,6 +411,54 @@ main{
   color: #fff;
   font-size: 25px;
 }
+
+/* inizio HSF */
+
+.hsf-section{
+  height: 650px;
+}
+
+.col-hsf-left{
+  width: 44%;
+}
+
+.info-hsf-left-top{
+  width: 50%;
+  margin: auto;
+}
+
+.col-hsf-left h2{
+  font-size: 45px;
+  padding-top: 40px;
+}
+
+.col-hsf-left .p-top{
+  padding: 20px 0 20px 0;
+  line-height: 27px;
+  width: 90%;
+}
+
+.col-hsf-left > h2{
+  font-size: 33px;
+  padding: 40px 0;
+}
+
+.info-hsf-left-center{
+  line-height: 27px;
+  padding-bottom: 40px;
+}
+
+.p-small{
+  font-size: 12px;
+  padding-top: 40px;
+}
+
+
+.col-hsf-right{
+  width: 65%;
+  background-color: pink;
+}
+
 
 
 
