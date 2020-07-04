@@ -229,7 +229,7 @@ main{
 }
 
 .box-info .col-sx img{
-  height: 95px;
+  height: 100px;
   margin-bottom: 15px;
 }
 
@@ -289,9 +289,63 @@ main{
 
 
 
+/* tre colonne */
 
+.col-info .box{
+  float: left;
+  width: 30%;
+  height: 600px;
+  text-align: center;
+  padding: 30px;
 
+}
 
+.box-center{
+  margin: 0 5%;
+}
+
+.col-info .box:last-child{
+  float: right;
+}
+
+.col-info img{
+  height: 100px;
+  margin-bottom: 25px;
+}
+.col-info h3{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.col-info p{
+  font-size: 14px;
+  min-height: 100px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.col-info hr{
+  margin-bottom: 25px;
+}
+
+.col-info h4{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.col-info ul{
+  list-style: none;
+  text-align: left;
+}
+
+.col-info ul li .fa-check-circle{
+  color: #FF7A59;
+  margin-right: 10px;
+}
+.col-info ul li:last-child{
+  margin-bottom: 50px;
+}
 
 
 
