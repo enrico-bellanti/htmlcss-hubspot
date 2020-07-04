@@ -3,6 +3,7 @@
  margin: 0;
  padding: 0;
  }
+
  body{
   font-family: 'Roboto', sans-serif;
   color: #33475B;
@@ -52,7 +53,7 @@ header{
  }
 
 .header-top{
- height: 114;
+ height: 114px;
 }
 
 /* barra navigazione superiore */
@@ -64,6 +65,10 @@ header{
  font-size: 14px;
 }
 
+.header-top ul{
+  list-style: none;
+}
+
 .header-top ul li{
   display: inline-block;
   color: #33475B;
@@ -71,8 +76,7 @@ header{
 
 .header-top li a{
  text-decoration: none;
-   margin: 0 10px;
- /* padding: 0 5px; */
+ margin: 0 10px;
 }
 
 
@@ -210,22 +214,82 @@ main{
 
 .box-info{
   height: 350px;
-  padding: 80px 120px;
+  padding: 80px 90px;
   margin-bottom: 40px;
   text-align: center;
 }
 
-.box-info .col-sx{
-  float: left;
-}
-.box-info .col-dx{
+.box-info .col-sx, .box-info .col-dx{
+  /* padding-right: 100px; */
   float: left;
 }
 
+.box-info .col-sx{
+  width: 20%;
+}
+
 .box-info .col-sx img{
-  height: 90px;
+  height: 95px;
   margin-bottom: 15px;
 }
+
+
+.box-info .col-dx{
+  width: 75%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.box-info .col-dx ul{
+  list-style: none;
+}
+.box-info .col-dx ul li{
+  display: inline-block;
+}
+
+.box-info .col-dx h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.box-info .col-dx p{
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.box-info .col-dx h4{
+  width: 28%;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
+  vertical-align: text-top;
+}
+
+.box-info .col-dx hr{
+  display: inline-block;
+  width: 65%;
+  margin-left: 5%;
+}
+
+.box-info .col-dx .text-hr{
+  margin-bottom: 30px;
+}
+
+.box-info .col-dx .icon-check{
+  margin: 0 15px;
+}
+
+.box-info .col-dx ul li:first-child span{
+  margin-left: 0;
+}
+
+.box-info .col-dx ul li .fa-check-circle{
+  color: #FF7A59;
+}
+
+
+
+
 
 
 
