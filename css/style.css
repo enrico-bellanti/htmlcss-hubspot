@@ -471,17 +471,24 @@ main{
 
 .row-partners{
   width: 600px;
+  height: 200px;
   margin-top: 50px;
-  margin-left: 30px;
-  background-color: green;
 }
 
 .banner-partners-wrapper{
+  position: relative;
   float: left;
   width: 150px;
-  padding: 20px;
+  height: 60px;
   text-align: center;
-  vertical-align: baseline;
+}
+
+.banner-partners-wrapper img{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 0 10%;
 }
 
 .img-size{
@@ -490,7 +497,6 @@ main{
 }
 
 .logo-chinese{
-  background-color: blue;
   height: 450px;
 }
 
