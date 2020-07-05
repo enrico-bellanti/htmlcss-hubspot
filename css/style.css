@@ -149,6 +149,8 @@ header{
   margin: 0;
 }
 
+/* inizio banner */
+
 .banner{
   height: 500px;
   background-color: #FFF2EF;
@@ -164,12 +166,13 @@ header{
 }
 
 .banner-text h1{
-  font-size: 60px;
+  font-size: 55px;
   margin-bottom: 20px;
 }
 
 .banner-text p{
   margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .banner-text a{
@@ -195,12 +198,12 @@ main{
 }
 
 .banner-powerful{
-  height: 350px;
+  height: 370px;
   text-align: center;
 }
 
 .banner-powerful img{
-  height: 200px;
+  height: 220px;
   padding-top: 40px;
 }
 
@@ -208,6 +211,10 @@ main{
   text-transform: capitalize;
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+.banner-powerful p{
+  line-height: 25px;
 }
 
 .box{
@@ -224,7 +231,6 @@ main{
 }
 
 .box-info .col-sx, .box-info .col-dx{
-  /* padding-right: 100px; */
   float: left;
 }
 
@@ -374,6 +380,7 @@ main{
 .home-comunity p{
   font-size: 14px;
   margin-bottom: 30px;
+  line-height: 25px;
 }
 
 .box-gradient-container{
@@ -535,7 +542,7 @@ footer{
 
 .list-countries{
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .nav-countries ul{
