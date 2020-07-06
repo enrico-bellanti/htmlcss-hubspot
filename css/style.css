@@ -175,8 +175,8 @@ header{
   background-color: #FFF2EF;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: 106% 309%;
-  background-size: 1167px;
+  background-position: 106% 0%;
+  background-size: 1400px;
 }
 
 .banner-text{
