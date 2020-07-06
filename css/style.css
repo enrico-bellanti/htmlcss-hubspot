@@ -4,11 +4,17 @@
  padding: 0;
  }
 
+ * a{
+   text-decoration: none;
+ }
+
  body{
   font-family: 'Roboto', sans-serif;
   color: #33475B;
   font-weight: 500;
  }
+
+
 
 .clearfix::after {
  content: "";
@@ -26,10 +32,11 @@
    margin: auto;
  }
 
+ /* bottoni */
+
  .btn{
+   display: inline-block;
    border-radius: 5px;
-   padding: 8px 10px;
-   text-decoration: none;
  }
 
  .btn-orange{
@@ -39,13 +46,19 @@
 
  .btn-orange-large{
    padding: 18px 35px;
-   display: inline-block;
  }
 
  .btn-white{
    color: #FE775A;
    border: 1px solid #FE775A;
    background-color: transparent;
+ }
+
+ #btn-special{
+   color: #32495B;
+   background-color: #dadee0;
+   margin: 15px 0;
+   padding: 0 5px
  }
 
 header{
@@ -508,35 +521,48 @@ main{
 }
 
 footer{
-  height: 500px;
+  height: 600px;
   background-color: #32495B;
 }
 
 .col-footer-list{
-  padding: 50px 0;
+  padding: 30px 0 40px 0;
 }
 
-.col-footer-nav-li{
+.col-footer-list ul{
   float: left;
-  width: 20%;
-  padding-right: 5%
-}
-
-
-.col-footer-nav-li ul{
+  width: 25%;
   list-style: none;
-  color: #fff;
 }
 
-.col-footer-nav-li ul a{
+.col-footer-list > ul li{
+  line-height: 35px;
+}
+
+.col-footer-list > ul > li:first-child{
+  color: #fff;
+  line-height: 50px;
+}
+
+.col-footer-list ul a{
   color: #C1D3E2;
   text-decoration: none;
 }
 
-#btn-special{
-  color: #32495B;
-  background-color: #fff;
+
+.list-social ul{
+  list-style: none;
 }
+
+.list-social ul li{
+  float: left;
+}
+/* .list-social ul li a{
+  color: #C1D3E2;
+  text-decoration: none;
+} */
+
+
 
 /* inizio list countries */
 
