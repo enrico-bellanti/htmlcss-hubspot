@@ -171,11 +171,11 @@ header{
 /* inizio banner */
 
 .banner{
-  height: 500px;
+  height: 600px;
   background-color: #FFF2EF;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: 106% 0%;
+  background-position: 106% 309%;
   background-size: 1167px;
 }
 
@@ -190,6 +190,7 @@ header{
 }
 
 .banner-text p{
+  width: 80%;
   margin-bottom: 20px;
   line-height: 30px;
 }
@@ -438,7 +439,8 @@ main{
   top:50%;
   transform: translateY(-50%);
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: lighter;
   margin-left: 5px;
 }
 
@@ -559,17 +561,9 @@ footer{
   text-decoration: none;
 }
 
-/* .footer-contact-list{
-  width: 200px;
-}
-
-.footer-social{
-  width: 100%;
-} */
-
 .footer-social li{
   display: inline-block;
-  width: 18%;
+  width: 14%;
 }
 
 
