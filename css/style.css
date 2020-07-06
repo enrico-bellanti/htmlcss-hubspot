@@ -632,13 +632,44 @@ footer{
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 400px;
+  width: 350px;
   height: 200px;
-  background-color: green;
 }
 
 .chat-screen{
+  position: relative;
   width: 100%;
   height: 60%;
-  background-color: blue;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.icon-exit{
+  color: #7c98b6;
+  font-size: 18px;
+  text-align: right;
+}
+
+.robot-img{
+  position: absolute;
+  left: 50%;
+  top: -20%;
+  transform: translateX(-50%);
+}
+
+.robot-img img{
+  height: 54px;
+}
+
+.chat-bottom{
+  text-align: right;
+}
+
+.icon-chat{
+  color: #fff;
+  background-color: #7c98b6;
+  font-size: 40px;
+  border-radius: 45%;
+  padding: 15px;
 }
