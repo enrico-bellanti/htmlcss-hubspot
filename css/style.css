@@ -34,7 +34,7 @@
 
  .btn-orange{
    color: #fff;
-   background-color: #FF7A59;
+   background-color: #FE775A;
  }
 
  .btn-orange-large{
@@ -43,8 +43,8 @@
  }
 
  .btn-white{
-   color: #FF7A59;
-   border: 1px solid #FF7A59;
+   color: #FE775A;
+   border: 1px solid #FE775A;
    background-color: transparent;
  }
 
@@ -294,7 +294,7 @@ main{
 }
 
 .box-info .col-dx ul li .fa-check-circle{
-  color: #FF7A59;
+  color: #FE775A;
 }
 
 
