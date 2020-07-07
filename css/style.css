@@ -44,24 +44,42 @@
 .btn-orange{
  color: #fff;
  background-color: #FE775A;
+}
 
+.btn-orange:hover{
+  background-color: #ffbcac;
 }
 
 .btn-orange-large{
  padding: 18px 35px;
 }
 
-.btn-white{
+.btn-transparent{
  color: #FE775A;
  border: 1px solid #FE775A;
  background-color: transparent;
 }
 
-#btn-special{
+.btn-transparent:hover{
+  background-color: #fff1ee;
+}
+
+#btn-white{
  color: #32495B;
- background-color: #dadee0;
+ background-color: #fff;
+ padding: 10px 10px;
+ /* background-color: #dadee0; */
  margin: 15px 0;
 }
+
+#btn-white:hover{
+  background-color: #eaf0f6;
+}
+
+.text-color-blue:hover{
+  color: #7fd1de;
+}
+
 
 header{
 
