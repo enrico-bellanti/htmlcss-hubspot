@@ -68,12 +68,17 @@ header{
  }
 
 .header-top{
- height: 114px;
+  margin-top: 57px;
+ height: 57px;
 }
 
 /* barra navigazione superiore */
 .nav-top{
+  position: fixed;
+  top: 0;
+  width: 100%;
  height: 56px;
+ z-index: 1;
  background-color: #F4F9FD;
  border-bottom: 1px solid #000;
  line-height: 56px;
@@ -139,6 +144,7 @@ header{
 
 /* barra navigazione inferiore */
 .nav-bottom{
+
   height: 56px;
   background-color: #FFF;
 }
@@ -453,7 +459,7 @@ main{
 /* inizio HSF sinistra */
 .col-hsf-left{
   float: left;
-  width: 44%;
+  width: 40%;
 }
 
 .info-hsf-left-top{
@@ -630,6 +636,7 @@ footer{
 
 .pop-up{
   position: fixed;
+  z-index: 1;
   right: 20px;
   bottom: 0;
   width: 300px;
