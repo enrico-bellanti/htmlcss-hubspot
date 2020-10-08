@@ -80,14 +80,11 @@
   color: #7fd1de;
 }
 
-
-header{
-
- }
+/* HEADER */
 
 .header-top{
   margin-top: 57px;
- height: 57px;
+  height: 57px;
 }
 
 /* barra navigazione superiore */
@@ -95,12 +92,12 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
- height: 56px;
- z-index: 1;
- background-color: #F4F9FD;
- border-bottom: 1px solid #000;
- line-height: 56px;
- font-size: 14px;
+  height: 56px;
+  z-index: 1;
+  background-color: #F4F9FD;
+  border-bottom: 1px solid #000;
+  line-height: 56px;
+  font-size: 14px;
 }
 
 .header-top ul{
